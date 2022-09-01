@@ -1,0 +1,27 @@
+.wrapper {
+    display: grid;
+    height: 100vh;
+}
+
+.mainWrapper {
+    height: 80vh;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.headerWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.footerWrapper {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 10px;
+}
